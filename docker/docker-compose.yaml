@@ -1,0 +1,7 @@
+# https://docs.docker.com/compose/environment-variables/
+version: "2.4"
+services:
+  push-proxy:
+    image: mattermost/mattermost-push-proxy
+    ports:
+      - "8080:8080"
